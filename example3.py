@@ -1,5 +1,5 @@
 def count_down(start_number):
-
+  current = 4
   while (current > 0):
     print(current)
     current -= 1
