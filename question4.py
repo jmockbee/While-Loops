@@ -1,7 +1,17 @@
 def sum_divisors(n):
-  sum = 0
-  # Return the sum of all divisors of n, not including n
-  return sum
+    sum = 0 
+    x = 1
+    while n !=0 and x < n:
+        if n % x == 0
+            sum += x
+        
+
+    
+
+
+
+
+            return sum
 
 print(sum_divisors(0))
 # 0
