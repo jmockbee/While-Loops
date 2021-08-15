@@ -3,13 +3,13 @@ def multiplication_table(number):
 	multiplier = 1
 	# Only want to loop through 5
 	while multiplier <= 5:
-		result = ___ 
+		result = multiplier * number 
 		# What is the additional condition to exit out of the loop?
-		if ___ :
+		if result >= 25 :
 			break
 		print(str(number) + "x" + str(multiplier) + "=" + str(result))
 		# Increment the variable for the loop
-		___ += 1
+		multiplier  += 1
 
 multiplication_table(3) 
 # Should print: 3x1=3 3x2=6 3x3=9 3x4=12 3x5=15
